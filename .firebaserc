@@ -1,5 +1,83 @@
-{
-  "projects": {
-    "default": "ciara-nelson-project-ff2d8"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  h1{
+    <font-family</font-faml>
   }
-}
+  p{
+    color:green;
+  }
+  i {
+    font-size: 300%;
+  }
+  </style>
+</head>
+</body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ciara Nelson | Web Developer </title>
+</head>
+<body style="background-color:peru;">
+  <ol>
+    <li class="red"><a href="/">Home</a></li>
+    <li class="blue"><a href="/projects">projects</a></li>
+  </ol>
+  <h1 style="background-color:blue;">  This is my Heading </h1>
+  <p ="secondary">This <i style="color:purple;"> </i> Still the life of Ciara. </p>
+  <img style="width:400px; height:400px;" src="https://c402277.ssl.cf1.rackcdn.com/photos/6518/images/story_full_width/iStock_000011145477Large_mini_%281%29.jpg?1394632882" alt="">
+  <p id="primary" class= "big">The Life of Ciara </p>
+<p style="width:400px;height:50px;"> Hello, I'm Ciara, I like to extend my knowledge of technology and  improve my speed of typing</p>
+ <p style="font-size:300%;text-align:center;font-family:'Times Roman';"> I love dogs, I hate cats, Love car! </p>
+<ul>
+<li><a href="https://www.linkedin.com/in/ciara-nelson-13598724/">LinkedIn</a></li>
+<li><a href="https://gist.github.com/fvf236/c6a8fc6dad494e5dfb45740e187fe1c6">GITHUB</a></li>
+<li><a href="https://www.facebook.com/ciaralnelson">Facebook</a></li>
+</ul>
+<a href="mailto:ciara.l.nelson@live.com?Subject=Contact%20Form">Contact Me</a>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.553382125029!2d-85.31086128474057!3d35.04290138034805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605e7c73cb3f0b%3A0x8c629941797dacb6!2s1100+Market+St%2C+Chattanooga%2C+TN+37402!5e0!3m2!1sen!2sus!4v1499915023960" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  h1{
+    <font-family</font-faml>
+  }
+  p{
+    color:green;
+  }
+  i {
+    font-size: 300%;
+  }
+  </style>
+</head>
+</body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ciara Nelson | Web Developer </title>
+</head>
+<body style="background-color:peru;">
+  <ol>
+    <li class="red"><a href="/">Home</a></li>
+    <li class="blue"><a href="/projects">projects</a></li>
+  </ol>
+  <h1 style="background-color:blue;">  This is my Heading </h1>
+  <p ="secondary">This <i style="color:purple;"> </i> Still the life of Ciara. </p>
+  <img style="width:400px; height:400px;" src="https://c402277.ssl.cf1.rackcdn.com/photos/6518/images/story_full_width/iStock_000011145477Large_mini_%281%29.jpg?1394632882" alt="">
+  <p id="primary" class= "big">The Life of Ciara </p>
+<p style="width:400px;height:50px;"> Hello, I'm Ciara, I like to extend my knowledge of technology and  improve my speed of typing</p>
+ <p style="font-size:300%;text-align:center;font-family:'Times Roman';"> I love dogs, I hate cats, Love car! </p>
+<ul>
+<li><a href="https://www.linkedin.com/in/ciara-nelson-13598724/">LinkedIn</a></li>
+<li><a href="https://gist.github.com/fvf236/c6a8fc6dad494e5dfb45740e187fe1c6">GITHUB</a></li>
+<li><a href="https://www.facebook.com/ciaralnelson">Facebook</a></li>
+</ul>
+<a href="mailto:ciara.l.nelson@live.com?Subject=Contact%20Form">Contact Me</a>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.553382125029!2d-85.31086128474057!3d35.04290138034805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605e7c73cb3f0b%3A0x8c629941797dacb6!2s1100+Market+St%2C+Chattanooga%2C+TN+37402!5e0!3m2!1sen!2sus!4v1499915023960" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe
+</body>
+</html>
