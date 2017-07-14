@@ -8,11 +8,49 @@
   <title>Document</title>
 </head>
 <body>
-  <form>
-    <input type="text">
-    <input type="password">
-    <input type="email">
-    <input type="submit">
+<br>
+  <form action="//formspree.io/ciara.l.nelson@live.com" method="POST">
+</br>
+<br>
+    <input  placeholder type="text" name="firstname" value="First Name" size="100" autofocus>
+    <input  placeholder type="text" name="lastname" value="Last Name" size="100">
+    <input  placeholder type="email" name="userEmail" placeholder="your.email@example.com">
+</br>
+<br>
+    <label>What's this message about?
+      <ul>
+      <input  placeholder type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+      <input  placeholder type="radio" name="subject" value="personal" checked><span>Personal message</span>
+      <input  placeholder type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+      </ul>
+    </label>
+</br>
+<ul>
+    <input  placeholder  type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
+    <input  placeholder type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+</ul>
+<br>    <label  placeholder for="marketing">How did you hear about me?</label>
+    <select  placeholder name="marketing">
+      <optgroup label="Online">
+        <option placeholder value="social">Social Media (FB, Twitter, LinkedIn)</option>
+        <option placeholder value="github">Online Portfolio (GitHub)</option>
+        <option placeholder value="search">Search Engine</option>
+        <option required value="email">Email</option>
+      </optgroup>
+      <optgroup required label="In-Person">
+        <option required value="networking">We met at a networking event</option>
+        <option required value="referral">Personal referral</option>
+        <option required value="random">We met somewhere else</option>
+      </optgroup>
+      <option required value="other">Other</option>
+    </select>
+</br>
+<br>
+    <textarea required name="user_message" rows="8" cols="40"></textarea>
+</br>
+<br>
+    <input required type="submit">
   </form>
+</br>
 </body>
 </html>
