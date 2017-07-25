@@ -5,31 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Contact Us</title>
 </head>
-<body>
+<body style="background-color:teal;">
 <br>
   <form action="//formspree.io/ciara.l.nelson@live.com" method="POST">
 </br>
-<br>
-    <input  placeholder type="text" name="firstname" value="First Name" size="100" autofocus>
-    <input  placeholder type="text" name="lastname" value="Last Name" size="100">
-    <input  placeholder type="email" name="userEmail" placeholder="your.email@example.com">
-</br>
-<br>
-    <label>What's this message about?
-      <ul>
-      <input  placeholder type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
-      <input  placeholder type="radio" name="subject" value="personal" checked><span>Personal message</span>
-      <input  placeholder type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
-      </ul>
+<div id = "nameinfo">
+   <input  placeholder type="text" name="firstname" value="First Name" size="100">
+   <br>
+   <input  placeholder type="text" name="lastname" value="Last Name" size="100">
+   <br>
+   <input  placeholder type="text" name="Email" value="Email" size="100">
+   </br>
+  <br>
+</div>
+<div>
+    <label> What are interested in during your leisure time?
+    <ul>
+    <input  placeholder type="radio" name="subject" value="sports" checked><span>  Active or Attending Recreational Activities!</span>
+    <input  placeholder type="radio" name="subject" value="hobbies" checked><span> Arts/Music</span>
+    <input  placeholder type="radio" name="subject" value="other" checked><span> What ever sparks your interest</span>
+    </ul>
     </label>
-</br>
-<ul>
+</div>
+    <label> Learn more about the Happenings around Chattanooga
+    <ul>
     <input  placeholder  type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
     <input  placeholder type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
-</ul>
-<br>    <label  placeholder for="marketing">How did you hear about me?</label>
+    </ul>
+  </label>
+<br>
+<label  placeholder for="marketing">How did you hear about me?</label>
     <select  placeholder name="marketing">
       <optgroup label="Online">
         <option placeholder value="social">Social Media (FB, Twitter, LinkedIn)</option>
@@ -46,7 +53,7 @@
     </select>
 </br>
 <br>
-    <textarea required name="user_message" rows="8" cols="40"></textarea>
+    <textarea required name="user_message"  placeholder="Comments" value= "Comments" rows="8" cols="40"></textarea>
 </br>
 <br>
     <input required type="submit">

@@ -1,6 +1,3 @@
-!
-
-<style>
 html {
   box-sizing: border-box;
 }
@@ -17,31 +14,64 @@ i {
   max-width: 960px;
   margin: 0 auto;
 }
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height:auto;
+  width:100vw;
+}
+#nav>ul.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 }
 #nav li {
   display: inline;
   list-style-type: none;
 }
-#nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+
+#nameinfo{
+  float: right;
 }
+
+
 .PinkBG{background-color:pink;
 }
 #header {
   margin-top: 5.0em;
 }
-```css
 .container {
-  position: relative;
   max-width: 960px;
   margin: 0 auto;
+  overflow:auto;
 }
-```
+#content {
+    float:left;
+    width:75%;
+}
+#sidebar {
+  widows: 25%;
+  margin left: 600px;
+}
+
 .Hello{width:400px;height:50px;
 }
-.LoveDogs{font-size:300%;text-align:center;font-family:'Times Roman';
+.LoveDogs{font-size:300%;text-align:center;font-family:'Times Roman';}
 }
-.highlight{font-size:300%;text-align:center;font-family:'Times Roman'}
-</style>
+.highlight{font-size:300%;text-align:center;font-family:'Times Roman';}
+
+
+#greeting
+{background-color:teal;
+}
+#greeting p {
+  color:white;
+}
+#greeting
+{font-size:300%;font-style:italic;text-align:center;font-family:'Times Roman';}
+.container {
